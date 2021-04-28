@@ -11,13 +11,13 @@
        2. Open STS
         2.1) File -> import -> maven -> Existing maven project-> 
         Browse to the downloaded folder -> open -> finish
-       3) Go Into com.fetchreward.point.config
-        
+       3) Select src/main/java
+       4) Go Into  com.fetchreward.point.config
           dataSource.setUrl("jdbc:mysql://localhost:3306/point"); -> change "point" to your database name
           dataSource.setUsername("root"); -> change to your sql username
           dataSource.setPassword("password"); -> your mysql password
-       4) Go to com.fetchreward.point 
-            Open PointApplication.java -> right click -> selecgt Run as ->  SPRING BOOT APP
+       5) Go to com.fetchreward.point 
+            Open PointApplication.java -> right click -> select Run as ->  SPRING BOOT APP
 
 
 # REST API
