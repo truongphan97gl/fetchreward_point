@@ -42,7 +42,7 @@ public class TransactionController {
                 return new ResponseEntity<>("Invalid point", HttpStatus.BAD_REQUEST);
             }
         }
-        return new ResponseEntity<>(transactionService.getAllTransactions(), HttpStatus.ACCEPTED);
+        return new ResponseEntity<>(transactionService.getAllTransactions(), HttpStatus.OK);
     }
 
     @PostMapping("/spendPoints")
