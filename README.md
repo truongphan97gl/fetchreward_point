@@ -5,7 +5,8 @@
 - Maven
 - MySQL 8.0
 - STS (Spring Tool Suite)
-#How to run
+
+# How to run
        1. Download the repository into the machine
        2. Open STS
         2.1) File -> import -> maven -> Existing maven project-> 
@@ -19,10 +20,10 @@
             Open PointApplication.java -> right click -> selecgt Run as ->  SPRING BOOT APP
 
 
-#REST API
+# REST API
 The REST API to the app is described below.
 
-##Request
+## Request
 Example POSTMAN URL: `POST http://localhost:8080/addTransaction `
 
 `POST /addTransaction`<br>
